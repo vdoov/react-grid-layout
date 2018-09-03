@@ -460,7 +460,7 @@ var ReactGridLayout = (function(_React$Component) {
     // to find collisions faster
     var hasCollisions = void 0;
     if (preventCollision) {
-      var collisions = getAllCollisions(
+      var collisions = (0, _utils.getAllCollisions)(
         layout,
         _extends({}, l, { w: w, h: h })
       ).filter(function(layoutItem) {
