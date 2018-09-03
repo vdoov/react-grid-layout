@@ -15,7 +15,8 @@ import {
   validateLayout,
   getFirstCollision,
   noop,
-  createDragApiRef
+  createDragApiRef,
+  getAllCollisions
 } from "./utils";
 import GridItem, { calcXY } from "./GridItem";
 import type {
